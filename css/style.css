@@ -1751,6 +1751,11 @@ section.section {
 .image img {
   width: 800px;
 }
+
+.img-resize {
+  max-width: 60%;
+}
+
 /**
  * ========================================
  * Slider Area Style
