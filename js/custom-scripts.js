@@ -459,6 +459,7 @@
     var portfolioWrapper = $(".portfolio-wrapper"); // client's message
     portfolioWrapper.owlCarousel({
       singleItem :        true,
+      autoPlay :          15000,
       slideSpeed :        500,
       paginationSpeed :   500,
       autoHeight :        false,
@@ -510,7 +511,7 @@
     var testimonialSlider = $(".testimonial-wrapper"); // client's message
     testimonialSlider.owlCarousel({
       singleItem :        true,
-      autoPlay :          3000,
+      autoPlay :          15000,
       slideSpeed :        500,
       paginationSpeed :   500,
       autoHeight :        false,
